@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jinjiang Zou - Personal Homepage</title>
+    <title>Jinjiang Zou - Academic Homepage</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍🎓</text></svg>">
 </head>
 <body>
     <!-- Navigation -->
@@ -16,7 +17,7 @@
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#research">Research</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#teaching">Teaching</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -30,29 +31,45 @@
     <!-- Main Content -->
     <main class="container">
         <!-- Home Section -->
-        <section id="home" class="section">
+        <section id="home" class="section home-section">
             <div class="home-content">
                 <div class="home-text">
-                    <h1>Jinjiang Zou</h1>
-                    <p class="subtitle">Your Position/Title</p>
-                    <p class="affiliation">Your University/Institution</p>
+                    <h1 class="home-title">Jinjiang Zou</h1>
+                    <p class="home-subtitle">Assistant Professor of Computer Science</p>
+                    <p class="home-affiliation">University of Science and Technology</p>
                     
-                    <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> Your Address</p>
-                        <p><i class="fas fa-envelope"></i> your.email@example.com</p>
-                        <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+                    <div class="home-description">
+                        <p>Welcome to my academic homepage. I am passionate about advancing the frontiers of machine learning, artificial intelligence, and computational theory.</p>
                     </div>
                     
-                    <div class="social-links">
-                        <a href="https://github.com/jinjiangzou" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    <div class="home-contact">
+                        <p><i class="fas fa-envelope"></i> jinjiang.zou@example.edu</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Room 301, Computer Science Building</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    </div>
+                    
+                    <div class="home-social">
+                        <a href="https://github.com/jinjiangzou" target="_blank" class="social-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#" target="_blank" class="social-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="#" target="_blank" class="social-btn">
+                            <i class="fab fa-google-scholar"></i> Scholar
+                        </a>
+                        <a href="#" target="_blank" class="social-btn">
+                            <i class="fas fa-file-pdf"></i> CV
+                        </a>
                     </div>
                 </div>
                 
                 <div class="home-image">
-                    <img src="https://via.placeholder.com/300x300" alt="Profile Photo" class="profile-photo">
+                    <div class="profile-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -61,158 +78,214 @@
         <section id="about" class="section">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <p>Welcome to my personal homepage! I am [Your Name], a [Your Position] at [Your University/Institution]. My research interests lie in [Your Research Areas].</p>
+                <div class="about-text">
+                    <p>I am an Assistant Professor in the Department of Computer Science at the University of Science and Technology. My research focuses on developing novel algorithms and theoretical foundations for machine learning systems.</p>
+                    
+                    <p>I received my Ph.D. in Computer Science from Stanford University in 2020, where I was advised by Prof. Jane Smith. My dissertation focused on "Scalable Optimization Methods for Deep Learning."</p>
+                    
+                    <p>Prior to my current position, I was a postdoctoral researcher at MIT, working on reinforcement learning and robotics applications.</p>
+                </div>
                 
-                <p>I received my Ph.D. in [Your Field] from [Your University] in [Year]. Before that, I [brief background].</p>
-                
-                <div class="research-interests">
-                    <h3>Research Interests</h3>
-                    <ul>
-                        <li>Machine Learning Theory</li>
-                        <li>Statistical Learning</li>
-                        <li>Optimization</li>
-                        <li>High-Dimensional Statistics</li>
-                        <li>Reinforcement Learning</li>
-                    </ul>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Publications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Courses Taught</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Students Mentored</div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="section">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2023 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Position Title</h3>
-                        <p class="institution">University/Company Name</p>
-                        <p>Description of your responsibilities and achievements.</p>
+        <!-- Research Section -->
+        <section id="research" class="section">
+            <h2 class="section-title">Research Interests</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-brain"></i>
                     </div>
+                    <h3>Machine Learning</h3>
+                    <p>Deep learning, neural networks, optimization algorithms, and learning theory.</p>
                 </div>
                 
-                <div class="timeline-item">
-                    <div class="timeline-date">2020 - 2023</div>
-                    <div class="timeline-content">
-                        <h3>Previous Position</h3>
-                        <p class="institution">Previous University/Company</p>
-                        <p>Description of your responsibilities and achievements.</p>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-robot"></i>
                     </div>
+                    <h3>AI & Robotics</h3>
+                    <p>Reinforcement learning, computer vision, and autonomous systems.</p>
                 </div>
                 
-                <div class="timeline-item">
-                    <div class="timeline-date">2015 - 2020</div>
-                    <div class="timeline-content">
-                        <h3>Ph.D. Student</h3>
-                        <p class="institution">University Name</p>
-                        <p>Ph.D. in [Your Field]. Dissertation: [Your Dissertation Title].</p>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-chart-line"></i>
                     </div>
+                    <h3>Data Science</h3>
+                    <p>Statistical analysis, big data processing, and predictive modeling.</p>
+                </div>
+                
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Networks</h3>
+                    <p>Distributed systems, cloud computing, and network optimization.</p>
                 </div>
             </div>
         </section>
 
         <!-- Publications Section -->
         <section id="publications" class="section">
-            <h2 class="section-title">Publications</h2>
+            <h2 class="section-title">Selected Publications</h2>
             <div class="publications-list">
-                <div class="publication-year">
-                    <h3>2024</h3>
-                    <ul>
-                        <li>
-                            <strong>Paper Title 1</strong><br>
-                            Author 1, Author 2, Author 3<br>
-                            <em>Conference/Journal Name</em>, 2024<br>
-                            [<a href="#">PDF</a>] [<a href="#">Code</a>] [<a href="#">Slides</a>]
-                        </li>
-                        <li>
-                            <strong>Paper Title 2</strong><br>
-                            Author 1, Author 2<br>
-                            <em>Conference/Journal Name</em>, 2024<br>
-                            [<a href="#">PDF</a>] [<a href="#">Code</a>]
-                        </li>
-                    </ul>
+                <div class="publication-item">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3>Efficient Federated Learning with Differential Privacy</h3>
+                        <p class="pub-authors">Jinjiang Zou, Alice Chen, Bob Wang</p>
+                        <p class="pub-venue">NeurIPS 2024</p>
+                        <div class="pub-links">
+                            <a href="#"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#"><i class="fas fa-code"></i> Code</a>
+                            <a href="#"><i class="fas fa-video"></i> Talk</a>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="publication-year">
-                    <h3>2023</h3>
-                    <ul>
-                        <li>
-                            <strong>Paper Title 3</strong><br>
-                            Author 1, Author 2, Author 3, Author 4<br>
-                            <em>Conference/Journal Name</em>, 2023<br>
-                            [<a href="#">PDF</a>] [<a href="#">Code</a>]
-                        </li>
-                    </ul>
+                <div class="publication-item">
+                    <div class="pub-year">2023</div>
+                    <div class="pub-content">
+                        <h3>Adaptive Optimization for Large-Scale Machine Learning</h3>
+                        <p class="pub-authors">Jinjiang Zou, David Lee</p>
+                        <p class="pub-venue">ICML 2023</p>
+                        <div class="pub-links">
+                            <a href="#"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="publication-item">
+                    <div class="pub-year">2022</div>
+                    <div class="pub-content">
+                        <h3>Robust Deep Learning with Adversarial Training</h3>
+                        <p class="pub-authors">Jinjiang Zou, Emma Zhang, Frank Liu</p>
+                        <p class="pub-venue">AAAI 2022</p>
+                        <div class="pub-links">
+                            <a href="#"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="publication-links">
+            <div class="section-footer">
                 <a href="#" class="btn">View All Publications</a>
-                <a href="https://scholar.google.com" target="_blank" class="btn">Google Scholar</a>
             </div>
         </section>
 
         <!-- Teaching Section -->
         <section id="teaching" class="section">
             <h2 class="section-title">Teaching</h2>
-            <div class="teaching-list">
-                <div class="course">
-                    <h3>Fall 2024</h3>
-                    <p><strong>Course Code: Course Name</strong></p>
-                    <p>Brief description of the course content and your role.</p>
+            <div class="teaching-grid">
+                <div class="course-card">
+                    <h3>CS 501: Machine Learning Fundamentals</h3>
+                    <p class="course-term">Fall 2024</p>
+                    <p>Introduction to machine learning concepts, algorithms, and applications.</p>
+                    <div class="course-links">
+                        <a href="#">Syllabus</a>
+                        <a href="#">Materials</a>
+                    </div>
                 </div>
                 
-                <div class="course">
-                    <h3>Spring 2024</h3>
-                    <p><strong>Course Code: Course Name</strong></p>
-                    <p>Brief description of the course content and your role.</p>
+                <div class="course-card">
+                    <h3>CS 601: Advanced Algorithms</h3>
+                    <p class="course-term">Spring 2024</p>
+                    <p>Advanced topics in algorithm design, analysis, and optimization.</p>
+                    <div class="course-links">
+                        <a href="#">Syllabus</a>
+                        <a href="#">Assignments</a>
+                    </div>
                 </div>
                 
-                <div class="course">
-                    <h3>Fall 2023</h3>
-                    <p><strong>Course Code: Course Name</strong></p>
-                    <p>Brief description of the course content and your role.</p>
+                <div class="course-card">
+                    <h3>CS 401: Data Structures</h3>
+                    <p class="course-term">Fall 2023</p>
+                    <p>Fundamental data structures and their applications in software development.</p>
+                    <div class="course-links">
+                        <a href="#">Syllabus</a>
+                        <a href="#">Projects</a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="section">
-            <h2 class="section-title">Contact</h2>
+            <h2 class="section-title">Contact Information</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
                         <div>
                             <h3>Email</h3>
-                            <p>your.email@example.com</p>
+                            <p>jinjiang.zou@example.edu</p>
+                            <p class="contact-note">For academic inquiries</p>
                         </div>
                     </div>
                     
                     <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
                         <div>
                             <h3>Office</h3>
-                            <p>Room Number, Building Name<br>
-                            Street Address<br>
-                            City, State ZIP Code</p>
+                            <p>Room 301, Computer Science Building</p>
+                            <p>123 University Avenue</p>
+                            <p>City, State 12345</p>
                         </div>
                     </div>
                     
                     <div class="contact-item">
-                        <i class="fas fa-phone"></i>
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
                         <div>
-                            <h3>Phone</h3>
-                            <p>+1 (123) 456-7890</p>
+                            <h3>Office Hours</h3>
+                            <p>Monday: 2:00 PM - 4:00 PM</p>
+                            <p>Wednesday: 10:00 AM - 12:00 PM</p>
+                            <p class="contact-note">Or by appointment</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="office-hours">
-                    <h3>Office Hours</h3>
-                    <p>Monday: 2:00 PM - 4:00 PM</p>
-                    <p>Wednesday: 10:00 AM - 12:00 PM</p>
-                    <p>Or by appointment</p>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -221,12 +294,26 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
+            <div class="footer-logo">JZ</div>
+            <div class="footer-info">
+                <p>Jinjiang Zou - Academic Homepage</p>
+                <p>Department of Computer Science</p>
+                <p>University of Science and Technology</p>
+            </div>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
             <p>&copy; 2024 Jinjiang Zou. All rights reserved.</p>
-            <p>Last updated: December 2024</p>
-            <p>Hosted on GitHub Pages</p>
+            <p>Last updated: December 2024 | Hosted on GitHub Pages</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
